@@ -5,8 +5,12 @@ function onLoad() {
     displayCartItems();
     cartPaymentDetails();
 }
+function thankYouFun(){
+    alert("Thank you for Visiting Site... Visit Again!!")
+}
 
 function loadCartItemObject() {
+    // console.log(cartItems);
     cartItemObjects = cartItems.map(cartItemId => {
         for (let i = 0; i < products.length; i++)
             if (cartItemId == products[i].id) {
@@ -65,3 +69,7 @@ function generateItemHTML(item) {
                  </div>
              </div>`
 }
+
+
+
+

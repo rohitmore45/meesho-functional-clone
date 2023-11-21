@@ -5,7 +5,7 @@ function onLoad() {
     let cartItemsStr = localStorage.getItem('cartItems');
     cartItems = cartItemsStr ? JSON.parse(cartItemsStr) : [];
     displayProductOnHomePage();
-    cartItemIcon()
+    cartItemIcon();
 }
 
 function addProductToCart(ItemId) {
@@ -26,7 +26,7 @@ function cartItemIcon() {
 }
 function displayProductOnHomePage() {
     const mainContainerElement = document.querySelector(".main-container");
-    if(!mainContainerElement){
+    if (!mainContainerElement) {
         return;
     }
     let innerHtml = '';

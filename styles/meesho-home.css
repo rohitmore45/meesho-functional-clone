@@ -130,15 +130,15 @@ nav {
   margin: 12% auto 2% auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 4%;
+  gap: 2%;
   justify-content: space-evenly;
 }
 .item-container {
-  width: 235px;
+  width: 20%;
   border: 1px solid #e3dfdf;
   padding: 15px;
   border-radius: 15px;
-  margin-bottom: 5%;
+  margin-bottom: 4.5%;
 }
 .item-image {
   width: 100%;
